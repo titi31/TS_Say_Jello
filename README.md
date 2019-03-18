@@ -9,6 +9,7 @@ ___
 #### Avant toute chose
 
 **Forker le repo github sur votre profil et puis cloner celui-ci**
+
 Vérifier avec votre terminal si `nodejs` & `npm` sont bien installer.
 dans votre terminal :
 	- `node --version`
@@ -17,27 +18,34 @@ dans votre terminal :
 ##### Étape 1
 
 Créer une fonction `jello` qui prendra trois arguments `first_name`, `last_name`, `age`.
+
 Une fois cette fonction crée, elle devra renvoyer `Jello Bello [first_name] [last_name] à [age] ans` dans votre `HTML` dans la `section#app`.
 
 
 ##### Étape 2
 
 Créer un classe `Person` avec les mêmes attributs que la fonction `jello`.
+
 Une fois créer, rapeller la `jello` avec une nouvelle instance de `Person`.
 
 Mettre en place vos accesseur pour chaque attributs que possède votre classe.
+
 Une fois ceci fait, encore une fois rapeller `jello` avec une nouvelle instance de `Person`.
 
 Créer un function qui vérifira si la `Person` instacier et un adulte ou non. 
+
 Elle devra renvoyer `Jello Bello [first_name] [last_name] à [age] ans. [first_name] est un [is_an_adult]` dans votre `HTML` dans la `section#app`.
+
 #### Etape 3
 
 Créer une `Interfaces` qui va prendre les mêmes attributs qui votre classe `Person`.
+
 Puis implémenter votre `Interfaces` à votre classe `Person`.
 
 #### Etape 5
 
 Créer un formulaire dans votre `index.html` ou il y aura 3 inputs (`first_name`, `last_name`, `age`).
+
 Puis avec votre `typescript` récupérer ce que renvoie votre formulaire et créer une nouvelle instance de votre classe `Person` à chaque nouvelle soumission du formulaire.
 
 #### Bonus
